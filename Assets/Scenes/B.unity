@@ -340,7 +340,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitColor: {r: 0.9924528, g: 0.8819722, b: 0.8819722, a: 1}
   flashDuration: 0.25
-  hitSound: {fileID: 8300000, guid: a4463bf1aa972c844bfbd4e8e42311a8, type: 3}
+  hitSound: {fileID: 8300000, guid: 8d454fa456cab7744b5e91c1451e3711, type: 3}
+  shakeDuration: 0.15
+  shakeMagnitude: 0.08
 --- !u!1 &161586693
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,7 +1181,7 @@ Transform:
   m_GameObject: {fileID: 1268791913}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.3, y: 5.7, z: -22.09}
+  m_LocalPosition: {x: -1.5, y: 5.7, z: -22.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1273,7 +1275,7 @@ MonoBehaviour:
   crosshairImage: {fileID: 1417617306}
   defaultSprite: {fileID: 21300000, guid: c64190234599a6e498d5cb7ece9ea146, type: 3}
   fingerSprite: {fileID: 21300000, guid: d9423391d30fcab44b3e8d9ff48e323e, type: 3}
-  attackSFX: {fileID: 8300000, guid: 3ed267a437e5b5046b3c77973802f4f8, type: 3}
+  attackSFX: {fileID: 0}
 --- !u!1 &1400104929
 GameObject:
   m_ObjectHideFlags: 0
